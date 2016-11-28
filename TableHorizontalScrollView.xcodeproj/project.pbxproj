@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B24225E51DEACAFA00098F24 /* TableHorizontalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24225E41DEACAFA00098F24 /* TableHorizontalViewCell.swift */; };
+		B24225E71DEACBBF00098F24 /* HorizontalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24225E61DEACBBF00098F24 /* HorizontalCollectionViewCell.swift */; };
 		B2A8E08D1DEAC6CA0032EAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8E08C1DEAC6CA0032EAA9 /* AppDelegate.swift */; };
-		B2A8E08F1DEAC6CA0032EAA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8E08E1DEAC6CA0032EAA9 /* ViewController.swift */; };
 		B2A8E0921DEAC6CA0032EAA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A8E0901DEAC6CA0032EAA9 /* Main.storyboard */; };
 		B2A8E0941DEAC6CA0032EAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A8E0931DEAC6CA0032EAA9 /* Assets.xcassets */; };
 		B2A8E0971DEAC6CA0032EAA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A8E0951DEAC6CA0032EAA9 /* LaunchScreen.storyboard */; };
 		B2A8E0A21DEAC6CA0032EAA9 /* TableHorizontalScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8E0A11DEAC6CA0032EAA9 /* TableHorizontalScrollViewTests.swift */; };
 		B2A8E0AD1DEAC6CA0032EAA9 /* TableHorizontalScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8E0AC1DEAC6CA0032EAA9 /* TableHorizontalScrollViewUITests.swift */; };
+		B2A8E0BB1DEAC7090032EAA9 /* TableHorizontalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8E0BA1DEAC7090032EAA9 /* TableHorizontalScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B24225E41DEACAFA00098F24 /* TableHorizontalViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableHorizontalViewCell.swift; sourceTree = "<group>"; };
+		B24225E61DEACBBF00098F24 /* HorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
 		B2A8E0891DEAC6CA0032EAA9 /* TableHorizontalScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableHorizontalScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A8E08C1DEAC6CA0032EAA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2A8E08E1DEAC6CA0032EAA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2A8E0911DEAC6CA0032EAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2A8E0931DEAC6CA0032EAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2A8E0961DEAC6CA0032EAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		B2A8E0A81DEAC6CA0032EAA9 /* TableHorizontalScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableHorizontalScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A8E0AC1DEAC6CA0032EAA9 /* TableHorizontalScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHorizontalScrollViewUITests.swift; sourceTree = "<group>"; };
 		B2A8E0AE1DEAC6CA0032EAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A8E0BA1DEAC7090032EAA9 /* TableHorizontalScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableHorizontalScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				B2A8E08C1DEAC6CA0032EAA9 /* AppDelegate.swift */,
-				B2A8E08E1DEAC6CA0032EAA9 /* ViewController.swift */,
+				B2A8E0BA1DEAC7090032EAA9 /* TableHorizontalScrollViewController.swift */,
+				B24225E41DEACAFA00098F24 /* TableHorizontalViewCell.swift */,
+				B24225E61DEACBBF00098F24 /* HorizontalCollectionViewCell.swift */,
 				B2A8E0901DEAC6CA0032EAA9 /* Main.storyboard */,
 				B2A8E0931DEAC6CA0032EAA9 /* Assets.xcassets */,
 				B2A8E0951DEAC6CA0032EAA9 /* LaunchScreen.storyboard */,
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					B2A8E0881DEAC6CA0032EAA9 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RL4RD3FDAN;
 						ProvisioningStyle = Automatic;
 					};
 					B2A8E09C1DEAC6CA0032EAA9 = {
@@ -259,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2A8E08F1DEAC6CA0032EAA9 /* ViewController.swift in Sources */,
+				B2A8E0BB1DEAC7090032EAA9 /* TableHorizontalScrollViewController.swift in Sources */,
 				B2A8E08D1DEAC6CA0032EAA9 /* AppDelegate.swift in Sources */,
+				B24225E71DEACBBF00098F24 /* HorizontalCollectionViewCell.swift in Sources */,
+				B24225E51DEACAFA00098F24 /* TableHorizontalViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RL4RD3FDAN;
 				INFOPLIST_FILE = TableHorizontalScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timecapsule.TableHorizontalScrollView;
@@ -424,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RL4RD3FDAN;
 				INFOPLIST_FILE = TableHorizontalScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timecapsule.TableHorizontalScrollView;
@@ -505,6 +516,7 @@
 				B2A8E0B31DEAC6CA0032EAA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2A8E0B41DEAC6CA0032EAA9 /* Build configuration list for PBXNativeTarget "TableHorizontalScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +525,7 @@
 				B2A8E0B61DEAC6CA0032EAA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2A8E0B71DEAC6CA0032EAA9 /* Build configuration list for PBXNativeTarget "TableHorizontalScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +534,7 @@
 				B2A8E0B91DEAC6CA0032EAA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

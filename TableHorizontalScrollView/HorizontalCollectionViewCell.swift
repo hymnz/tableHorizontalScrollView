@@ -9,5 +9,5 @@
 import UIKit
 
 class HorizontalCollectionViewCell: UICollectionViewCell {
-    
+    @IBOutlet weak var label: UILabel!
 }
